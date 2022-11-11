@@ -1,7 +1,7 @@
-﻿Console.Write("Good morning!");
+﻿Console.Write("Good morning!");     // Сообщение пользователю (Console.Wrie(); Console.Writeline())
 
-int number = 11;
+int number = 11;    // Именованная Переменная! - int
 
-Console.WriteLine("Доброе утро! Сегодня " + number + " ноября ");
+Console.WriteLine("Доброе утро! Сегодня " + number + " ноября ");   // комбинация текста
 
-Console.WriteLine($"Доброе утро! Сегодня {number} ноября ");
+Console.Write($"Доброе утро! Сегодня {number} ноября ");    // комбинация текста
