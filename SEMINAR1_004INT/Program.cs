@@ -1,13 +1,13 @@
 ﻿// Напишите программу, которая на вход принимает одно число (N),
-//а на выходе показывает все целые числа в промежутке от -N до N.
+// а на выходе показывает все целые числа в промежутке от -N до N.
 
 Console.WriteLine("Дорогой пользователь, введи N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int current = num * (-1);
+int current = num * (-1);   // получаем отрицательное число; current - название долнительной переменной(любое)
 
-while (current <= num)
+while (current <= num)  //условие 
 {
-    Console.Write(current + " ");
-    current++;
+    Console.Write(current + " ");   //выведем числа по условию
+    current++;  //для отмены бесконечного цикла
 }
